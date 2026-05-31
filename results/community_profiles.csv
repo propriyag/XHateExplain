@@ -1,0 +1,27 @@
+community,size,hate_ratio,toxic_ratio,avg_sentiment,top_topics,key_posts
+6,696,0.016,0.091,-0.138,"user, white, number, like, people, women, just, think | user, number, people, queer, know, country, refugee, just","18751283_gab, 11785017324747, 11786716224141"
+0,522,0.86,0.973,-0.358,"nigger, number, white, kike, user, niggers, like, fucking | kike, nigger, shit, niggers, jews, white, muslim, moslem","15290126_gab, 15593840_gab, 19792345_gab"
+2,386,0.034,0.764,-0.302,"ghetto, like, user, bitch, just, shit, fucking, number | bitch, retarded, user, retard, hoe, got, did, make","11779989154187, 16166955_gab, 11790145083056"
+4,333,0.336,0.796,-0.334,"user, white, number, raped, muslims, women, muslim, faggot | number, white, jews, just, user, know, think, like","11677096_gab, 11619975_gab, 17363936_gab"
+5,34,0.324,0.412,-0.192,"moslem, nigger, user, moslems, wanted, say, women, police | white, moslem, just, mainly, europe, man, non, world","1246488_gab, 10842242_gab, 4982372_gab"
+10,4,0.25,0.75,0.394,(too small for LDA),"11790381444668, 11790850287408, 19770618_gab"
+7,3,0.333,0.333,-0.715,(too small for LDA),"11787926617271, 11240879129943, 11606436883069"
+8,3,0.333,0.667,0.0,(too small for LDA),"11780820525134, 11780203990843, 11779558170032"
+21,2,0.0,0.0,-0.709,(too small for LDA),"10605861_gab, 9991681_gab"
+20,1,1.0,1.0,0.0,(too small for LDA),23193283_gab
+1,1,0.0,1.0,0.0,(too small for LDA),10924149442456
+19,1,1.0,1.0,-0.681,(too small for LDA),6923022_gab
+25,1,1.0,1.0,-0.649,(too small for LDA),11729743599689
+24,1,0.0,0.0,0.0,(too small for LDA),27106705_gab
+23,1,1.0,1.0,-0.077,(too small for LDA),16960611_gab
+22,1,0.0,0.0,-0.599,(too small for LDA),17683055_gab
+15,1,0.0,0.0,-0.382,(too small for LDA),15292278_gab
+18,1,0.0,0.0,-0.557,(too small for LDA),11432604121395
+17,1,0.0,0.0,0.0,(too small for LDA),11717037324064
+16,1,0.0,0.0,-0.273,(too small for LDA),11745499577406
+14,1,0.0,0.0,-0.7,(too small for LDA),12613526382741
+13,1,1.0,1.0,0.0,(too small for LDA),24728249_gab
+12,1,1.0,1.0,0.0,(too small for LDA),11784152507538
+11,1,0.0,0.0,0.0,(too small for LDA),19531555_gab
+9,1,0.0,1.0,-0.751,(too small for LDA),11226871371183
+3,1,0.0,0.0,-0.586,(too small for LDA),10841444277388

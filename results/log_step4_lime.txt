@@ -1,0 +1,17 @@
+[LIME] explaining 300 test posts (1000 perturbations each) ...
+  50/300
+  100/300
+  150/300
+  200/300
+  250/300
+  300/300
+  saved per-sample explanations -> /Users/priyu/xhateexplain/results/lime_explanations.csv
+  saved -> /Users/priyu/xhateexplain/results/lime_summary.json
+  LIME: IOU=0.173 token-F1=0.248 AOPC@5=0.434 AOPC@10=0.441
+  saved /Users/priyu/xhateexplain/figures/lime_example_1.html
+  saved /Users/priyu/xhateexplain/figures/lime_example_2.html
+  saved /Users/priyu/xhateexplain/figures/lime_example_3.html
+  saved /Users/priyu/xhateexplain/figures/lime_example_4.html
+  saved /Users/priyu/xhateexplain/figures/lime_example_5.html
+  saved -> /Users/priyu/xhateexplain/results/lime_vs_shap.json
+  better plausibility: SHAP | better faithfulness: SHAP

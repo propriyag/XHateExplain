@@ -1,0 +1,177 @@
+{
+  "n_posts": 1141,
+  "n_cached_reused": 177,
+  "n_boot": 10000,
+  "seed": 42,
+  "note": "Evaluated only on test posts WITH a human rationale (clean plausibility).",
+  "metrics": {
+    "SHAP|iou": {
+      "mean": 0.2984,
+      "ci95": [
+        0.2871,
+        0.31
+      ]
+    },
+    "SHAP|token_f1": {
+      "mean": 0.427,
+      "ci95": [
+        0.4145,
+        0.4397
+      ]
+    },
+    "SHAP|aopc_5": {
+      "mean": 0.5781,
+      "ci95": [
+        0.5628,
+        0.5935
+      ]
+    },
+    "SHAP|aopc_10": {
+      "mean": 0.6031,
+      "ci95": [
+        0.5867,
+        0.6191
+      ]
+    },
+    "LIME|iou": {
+      "mean": 0.2883,
+      "ci95": [
+        0.2775,
+        0.2997
+      ]
+    },
+    "LIME|token_f1": {
+      "mean": 0.4166,
+      "ci95": [
+        0.4044,
+        0.4285
+      ]
+    },
+    "LIME|aopc_5": {
+      "mean": 0.5385,
+      "ci95": [
+        0.522,
+        0.5545
+      ]
+    },
+    "LIME|aopc_10": {
+      "mean": 0.5649,
+      "ci95": [
+        0.5475,
+        0.5821
+      ]
+    },
+    "Attention|iou": {
+      "mean": 0.305,
+      "ci95": [
+        0.2945,
+        0.3156
+      ]
+    },
+    "Attention|token_f1": {
+      "mean": 0.4404,
+      "ci95": [
+        0.429,
+        0.452
+      ]
+    },
+    "Attention|aopc_5": {
+      "mean": 0.4214,
+      "ci95": [
+        0.3982,
+        0.4441
+      ]
+    },
+    "Attention|aopc_10": {
+      "mean": 0.4942,
+      "ci95": [
+        0.4704,
+        0.5175
+      ]
+    },
+    "XHateExplain(mean_minmax)|iou": {
+      "mean": 0.3027,
+      "ci95": [
+        0.2914,
+        0.3141
+      ]
+    },
+    "XHateExplain(mean_minmax)|token_f1": {
+      "mean": 0.4325,
+      "ci95": [
+        0.42,
+        0.4452
+      ]
+    },
+    "XHateExplain(mean_minmax)|aopc_5": {
+      "mean": 0.558,
+      "ci95": [
+        0.5422,
+        0.5739
+      ]
+    },
+    "XHateExplain(mean_minmax)|aopc_10": {
+      "mean": 0.587,
+      "ci95": [
+        0.57,
+        0.6036
+      ]
+    },
+    "Fusion(mean_zscore)|iou": {
+      "mean": 0.304,
+      "ci95": [
+        0.2927,
+        0.3155
+      ]
+    },
+    "Fusion(mean_zscore)|token_f1": {
+      "mean": 0.4338,
+      "ci95": [
+        0.4212,
+        0.4468
+      ]
+    },
+    "Fusion(mean_zscore)|aopc_5": {
+      "mean": 0.563,
+      "ci95": [
+        0.5472,
+        0.5784
+      ]
+    },
+    "Fusion(mean_zscore)|aopc_10": {
+      "mean": 0.5903,
+      "ci95": [
+        0.5738,
+        0.6065
+      ]
+    },
+    "Fusion(learned_linear)|iou": {
+      "mean": 0.3157,
+      "ci95": [
+        0.3051,
+        0.3266
+      ]
+    },
+    "Fusion(learned_linear)|token_f1": {
+      "mean": 0.4525,
+      "ci95": [
+        0.4409,
+        0.464
+      ]
+    },
+    "Fusion(learned_linear)|aopc_5": {
+      "mean": 0.4801,
+      "ci95": [
+        0.4591,
+        0.5013
+      ]
+    },
+    "Fusion(learned_linear)|aopc_10": {
+      "mean": 0.5254,
+      "ci95": [
+        0.5039,
+        0.5467
+      ]
+    }
+  }
+}

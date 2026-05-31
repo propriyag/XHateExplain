@@ -1,0 +1,203 @@
+{
+  "n_boot": 10000,
+  "seed": 42,
+  "n_posts": 300,
+  "n_with_rationale": 300,
+  "metrics": {
+    "SHAP|iou": {
+      "mean": 0.1783,
+      "ci95": [
+        0.1544,
+        0.2038
+      ],
+      "n": 300
+    },
+    "SHAP|token_f1": {
+      "mean": 0.2523,
+      "ci95": [
+        0.2207,
+        0.2835
+      ],
+      "n": 300
+    },
+    "SHAP|aopc_5": {
+      "mean": 0.467,
+      "ci95": [
+        0.4341,
+        0.4998
+      ],
+      "n": 300
+    },
+    "SHAP|aopc_10": {
+      "mean": 0.4831,
+      "ci95": [
+        0.4473,
+        0.5188
+      ],
+      "n": 300
+    },
+    "LIME|iou": {
+      "mean": 0.173,
+      "ci95": [
+        0.1498,
+        0.1979
+      ],
+      "n": 300
+    },
+    "LIME|token_f1": {
+      "mean": 0.2485,
+      "ci95": [
+        0.2186,
+        0.2789
+      ],
+      "n": 300
+    },
+    "LIME|aopc_5": {
+      "mean": 0.434,
+      "ci95": [
+        0.3999,
+        0.4684
+      ],
+      "n": 300
+    },
+    "LIME|aopc_10": {
+      "mean": 0.441,
+      "ci95": [
+        0.4031,
+        0.478
+      ],
+      "n": 300
+    },
+    "Attention|iou": {
+      "mean": 0.1863,
+      "ci95": [
+        0.1623,
+        0.2119
+      ],
+      "n": 300
+    },
+    "Attention|token_f1": {
+      "mean": 0.2643,
+      "ci95": [
+        0.2334,
+        0.2955
+      ],
+      "n": 300
+    },
+    "Attention|aopc_5": {
+      "mean": 0.2906,
+      "ci95": [
+        0.2449,
+        0.3349
+      ],
+      "n": 300
+    },
+    "Attention|aopc_10": {
+      "mean": 0.3323,
+      "ci95": [
+        0.2853,
+        0.3776
+      ],
+      "n": 300
+    },
+    "XHateExplain|iou": {
+      "mean": 0.1863,
+      "ci95": [
+        0.1609,
+        0.212
+      ],
+      "n": 300
+    },
+    "XHateExplain|token_f1": {
+      "mean": 0.2625,
+      "ci95": [
+        0.2314,
+        0.295
+      ],
+      "n": 300
+    },
+    "XHateExplain|aopc_5": {
+      "mean": 0.4474,
+      "ci95": [
+        0.4132,
+        0.4814
+      ],
+      "n": 300
+    },
+    "XHateExplain|aopc_10": {
+      "mean": 0.4569,
+      "ci95": [
+        0.4201,
+        0.4937
+      ],
+      "n": 300
+    }
+  },
+  "paired_tests": {
+    "XHateExplain_vs_Attention__iou": {
+      "metric": "iou",
+      "method_a": "XHateExplain",
+      "method_b": "Attention",
+      "mean_diff": 0.0,
+      "ci95_diff": [
+        -0.0115,
+        0.0109
+      ],
+      "p_value": 0.9902,
+      "n_paired": 300,
+      "significant_0.05": false
+    },
+    "XHateExplain_vs_Attention__token_f1": {
+      "metric": "token_f1",
+      "method_a": "XHateExplain",
+      "method_b": "Attention",
+      "mean_diff": -0.0019,
+      "ci95_diff": [
+        -0.0157,
+        0.0116
+      ],
+      "p_value": 0.8032,
+      "n_paired": 300,
+      "significant_0.05": false
+    },
+    "XHateExplain_vs_SHAP__aopc_5": {
+      "metric": "aopc_5",
+      "method_a": "XHateExplain",
+      "method_b": "SHAP",
+      "mean_diff": -0.0196,
+      "ci95_diff": [
+        -0.029,
+        -0.0104
+      ],
+      "p_value": 0.0,
+      "n_paired": 300,
+      "significant_0.05": true
+    },
+    "XHateExplain_vs_SHAP__aopc_10": {
+      "metric": "aopc_10",
+      "method_a": "XHateExplain",
+      "method_b": "SHAP",
+      "mean_diff": -0.0262,
+      "ci95_diff": [
+        -0.0367,
+        -0.0165
+      ],
+      "p_value": 0.0,
+      "n_paired": 300,
+      "significant_0.05": true
+    },
+    "Attention_vs_SHAP__aopc_5": {
+      "metric": "aopc_5",
+      "method_a": "Attention",
+      "method_b": "SHAP",
+      "mean_diff": -0.1764,
+      "ci95_diff": [
+        -0.2043,
+        -0.1495
+      ],
+      "p_value": 0.0,
+      "n_paired": 300,
+      "significant_0.05": true
+    }
+  }
+}

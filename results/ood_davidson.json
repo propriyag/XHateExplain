@@ -1,0 +1,50 @@
+{
+  "dataset": "Davidson et al. 2017",
+  "n_posts": 24783,
+  "label_mapping": {
+    "0": "hate",
+    "1": "offensive",
+    "2": "normal"
+  },
+  "class_distribution": {
+    "offensive": 19190,
+    "normal": 4163,
+    "hate": 1430
+  },
+  "zero_shot_metrics": {
+    "accuracy": 0.5829,
+    "macro_f1": 0.4834,
+    "f1_hate": 0.3285,
+    "f1_offensive": 0.6784,
+    "f1_normal": 0.4434,
+    "auc": 0.8018
+  },
+  "confusion_matrix_rows_true_cols_pred": [
+    [
+      418,
+      663,
+      349
+    ],
+    [
+      570,
+      10402,
+      8218
+    ],
+    [
+      127,
+      410,
+      3626
+    ]
+  ],
+  "cm_label_order": [
+    "hate",
+    "offensive",
+    "normal"
+  ],
+  "attribution_transfer": {
+    "n_attr_posts": 100,
+    "n_with_slur": 41,
+    "top3_contains_slur": 29,
+    "slur_top_rate": 0.7073
+  }
+}

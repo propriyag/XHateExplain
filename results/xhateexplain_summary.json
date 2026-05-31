@@ -1,0 +1,10 @@
+{
+  "method": "XHateExplain",
+  "n_samples": 300,
+  "n_with_rationale": 300,
+  "plausibility_iou": 0.18629610321732074,
+  "token_f1": 0.26246334423601114,
+  "aopc_5": 0.4473527638117472,
+  "aopc_10": 0.45687807962298393,
+  "aopc_mean": 0.398644932574696
+}

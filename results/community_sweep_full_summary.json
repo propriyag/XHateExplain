@@ -1,0 +1,76 @@
+{
+  "argmax_Q_threshold": 0.7,
+  "argmax_Q": 0.5625,
+  "rows": [
+    {
+      "threshold": 0.5,
+      "edges": 708395,
+      "avg_degree": 708.4,
+      "n_communities": 3,
+      "modularity_Q": 0.43,
+      "hate_comm_gt70pct": 1,
+      "normal_comm_lt10pct": 1,
+      "sentiment_gap_norm_minus_hate": 0.2271
+    },
+    {
+      "threshold": 0.55,
+      "edges": 586855,
+      "avg_degree": 586.9,
+      "n_communities": 3,
+      "modularity_Q": 0.4632,
+      "hate_comm_gt70pct": 1,
+      "normal_comm_lt10pct": 1,
+      "sentiment_gap_norm_minus_hate": 0.2195
+    },
+    {
+      "threshold": 0.6,
+      "edges": 460981,
+      "avg_degree": 461.0,
+      "n_communities": 3,
+      "modularity_Q": 0.4985,
+      "hate_comm_gt70pct": 1,
+      "normal_comm_lt10pct": 1,
+      "sentiment_gap_norm_minus_hate": 0.2053
+    },
+    {
+      "threshold": 0.65,
+      "edges": 335969,
+      "avg_degree": 336.0,
+      "n_communities": 7,
+      "modularity_Q": 0.5328,
+      "hate_comm_gt70pct": 2,
+      "normal_comm_lt10pct": 3,
+      "sentiment_gap_norm_minus_hate": 0.2109
+    },
+    {
+      "threshold": 0.7,
+      "edges": 224081,
+      "avg_degree": 224.1,
+      "n_communities": 26,
+      "modularity_Q": 0.5625,
+      "hate_comm_gt70pct": 7,
+      "normal_comm_lt10pct": 14,
+      "sentiment_gap_norm_minus_hate": 0.138
+    },
+    {
+      "threshold": 0.8,
+      "edges": 72602,
+      "avg_degree": 72.6,
+      "n_communities": 337,
+      "modularity_Q": 0.4605,
+      "hate_comm_gt70pct": 64,
+      "normal_comm_lt10pct": 269,
+      "sentiment_gap_norm_minus_hate": 0.1843
+    },
+    {
+      "threshold": 0.85,
+      "edges": 33316,
+      "avg_degree": 33.3,
+      "n_communities": 864,
+      "modularity_Q": 0.3309,
+      "hate_comm_gt70pct": 155,
+      "normal_comm_lt10pct": 702,
+      "sentiment_gap_norm_minus_hate": 0.2736
+    }
+  ]
+}

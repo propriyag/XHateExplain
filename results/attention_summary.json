@@ -1,0 +1,10 @@
+{
+  "method": "Attention",
+  "n_samples": 300,
+  "n_with_rationale": 300,
+  "plausibility_iou": 0.1862812717773444,
+  "token_f1": 0.26431764039045985,
+  "aopc_5": 0.2905597430467606,
+  "aopc_10": 0.3323108312487602,
+  "aopc_mean": 0.24607353109452457
+}

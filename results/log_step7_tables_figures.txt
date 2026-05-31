@@ -1,0 +1,10 @@
+[Step7] tables ...
+  saved /Users/priyu/xhateexplain/figures/table1_classification.png
+  saved /Users/priyu/xhateexplain/figures/table2_explainability.png
+  saved /Users/priyu/xhateexplain/figures/table3_communities.png
+[Step7] figures ...
+  saved figure1_architecture.png
+  saved figure2_shap_waterfall.png
+  saved figure3_method_comparison.png
+  Figure 4 = /Users/priyu/xhateexplain/figures/community_graph.png
+[Step7] done.

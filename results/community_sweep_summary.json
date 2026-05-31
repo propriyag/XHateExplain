@@ -1,0 +1,42 @@
+{
+  "chosen_threshold": 0.7,
+  "sentiment_gap": "hate-heavy mean sentiment -0.358 vs normal-heavy -0.220 (gap +0.138)",
+  "sweep": [
+    {
+      "threshold": 0.7,
+      "edges": 224081,
+      "avg_degree": 224.1,
+      "n_communities": 26,
+      "modularity_Q": 0.5625,
+      "comm_ge10": 5,
+      "hate_comm_gt70pct": 7,
+      "normal_comm_lt10pct": 14,
+      "big_hate_gt70pct": 1,
+      "big_normal_lt10pct": 2
+    },
+    {
+      "threshold": 0.8,
+      "edges": 72602,
+      "avg_degree": 72.6,
+      "n_communities": 337,
+      "modularity_Q": 0.4605,
+      "comm_ge10": 7,
+      "hate_comm_gt70pct": 64,
+      "normal_comm_lt10pct": 269,
+      "big_hate_gt70pct": 1,
+      "big_normal_lt10pct": 3
+    },
+    {
+      "threshold": 0.85,
+      "edges": 33316,
+      "avg_degree": 33.3,
+      "n_communities": 864,
+      "modularity_Q": 0.3309,
+      "comm_ge10": 6,
+      "hate_comm_gt70pct": 155,
+      "normal_comm_lt10pct": 702,
+      "big_hate_gt70pct": 2,
+      "big_normal_lt10pct": 3
+    }
+  ]
+}

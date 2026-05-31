@@ -1,0 +1,7 @@
+{
+  "chosen_threshold": 0.7,
+  "n_nodes": 2000,
+  "n_edges": 224081,
+  "n_communities": 26,
+  "modularity_Q": 0.5625
+}

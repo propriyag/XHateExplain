@@ -1,0 +1,109 @@
+{
+  "seeds": [
+    42,
+    1,
+    2
+  ],
+  "BERT": {
+    "accuracy": {
+      "mean": 0.701,
+      "std": 0.0033
+    },
+    "macro_f1": {
+      "mean": 0.6875,
+      "std": 0.007
+    },
+    "f1_hate": {
+      "mean": 0.7679,
+      "std": 0.0035
+    },
+    "f1_offensive": {
+      "mean": 0.5441,
+      "std": 0.0231
+    },
+    "f1_normal": {
+      "mean": 0.7504,
+      "std": 0.0046
+    },
+    "auc": {
+      "mean": 0.8601,
+      "std": 0.002
+    }
+  },
+  "HateBERT": {
+    "accuracy": {
+      "mean": 0.697,
+      "std": 0.0083
+    },
+    "macro_f1": {
+      "mean": 0.6901,
+      "std": 0.0084
+    },
+    "f1_hate": {
+      "mean": 0.7673,
+      "std": 0.0058
+    },
+    "f1_offensive": {
+      "mean": 0.5606,
+      "std": 0.0168
+    },
+    "f1_normal": {
+      "mean": 0.7424,
+      "std": 0.0032
+    },
+    "auc": {
+      "mean": 0.8552,
+      "std": 0.0121
+    }
+  },
+  "BiLSTM+Attention": {
+    "accuracy": {
+      "mean": 0.6516,
+      "std": 0.0
+    },
+    "macro_f1": {
+      "mean": 0.6336,
+      "std": 0.0
+    },
+    "f1_hate": {
+      "mean": 0.7103,
+      "std": 0.0
+    },
+    "f1_offensive": {
+      "mean": 0.489,
+      "std": 0.0
+    },
+    "f1_normal": {
+      "mean": 0.7014,
+      "std": 0.0
+    },
+    "auc": {
+      "mean": 0.8182,
+      "std": 0.0
+    }
+  },
+  "mcnemar_per_seed": {
+    "42": {
+      "n01_only_A_right": 135,
+      "n10_only_B_right": 139,
+      "chi2": 0.0328,
+      "p_value": 0.85618,
+      "significant_0.05": false
+    },
+    "1": {
+      "n01_only_A_right": 176,
+      "n10_only_B_right": 174,
+      "chi2": 0.0029,
+      "p_value": 0.95737,
+      "significant_0.05": false
+    },
+    "2": {
+      "n01_only_A_right": 210,
+      "n10_only_B_right": 185,
+      "chi2": 1.4582,
+      "p_value": 0.22721,
+      "significant_0.05": false
+    }
+  },
+  "mcnemar_holds_all_seeds": true
+}
