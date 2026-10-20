@@ -41,8 +41,8 @@ SHAP is most faithful, attention most plausible; the fused explainer balances bo
 **Out-of-distribution (zero-shot on Davidson 2017):** macro-F1 0.483, AUC 0.802; the
 slur-centric attribution pattern transfers to ~71% of slur-bearing posts.
 
-See [`results of experiment/Reviewer_Result.docx`](results%20of%20experiment/) and
-`REVISION_RESULTS.md` for the full tables, graphs, and discussion.
+Every number above can be reproduced from the saved CSVs/JSONs under `results/` —
+each table and figure in the paper has a one-to-one source file.
 
 ---
 
@@ -56,8 +56,21 @@ pip install -r requirements.txt
 ```
 
 Runs on CPU, CUDA, or Apple-Silicon MPS (auto-detected in `config.py`).
-The HateXplain dataset and GloVe/Davidson files are **downloaded automatically** on
-first run — they are not committed to the repo.
+
+### Datasets
+
+- **HateXplain** — placed at `data/dataset.json` (download from
+  https://github.com/hate-alert/HateXplain). `step1_data.py` fetches it on first
+  run if network access is available.
+- **Davidson 2017** — placed at `data/davidson_labeled_data.csv` (download from
+  https://github.com/t-davidson/hate-speech-and-offensive-language).
+
+### Pre-trained models
+
+The two fine-tuned checkpoints behind the paper's Table 2 numbers are 418 MB
+each and hosted on HuggingFace. See [`MODELS.md`](MODELS.md) for one-command
+download. Loading them lets you reproduce every classification number
+**exactly** — no retraining required.
 
 ## Usage
 
@@ -101,11 +114,12 @@ modeling.py            # transformer train/eval helpers
 explain_common.py      # shared plausibility / faithfulness scoring
 utils.py               # metrics (IOU, token-F1, AOPC), rationale parsing
 step1..step16_*.py     # pipeline + revision experiments
-make_*.py              # Word/Markdown report generators
-run_*.sh               # orchestration scripts
-results/               # metrics JSON/CSV (generated)
-figures/               # 300-DPI figures (generated)
-data/ models/          # downloaded data + trained weights (gitignored)
+run_all.sh             # orchestration script (runs all steps in order)
+results/               # metrics JSON/CSV used by every paper table
+figures/               # 300-DPI figures used in the paper
+data/                  # datasets (download separately, gitignored)
+models/                # fine-tuned checkpoints (hosted on HuggingFace, see MODELS.md)
+MODELS.md              # model download + reproduction notes
 ```
 
 ## Reproducibility
@@ -116,12 +130,12 @@ Every number in the reports is read directly from the saved `results/*.json|csv`
 ## Citation
 
 ```bibtex
-@article{xhateexplain2026,
+@article{gupta2026xhateexplain,
   title   = {XHateExplain: A Multi-Level Interpretability Framework for
              Hate Speech Detection in Social Networks},
-  author  = {Gupta, Priya},
-  year    = {2026},
-  note    = {Under review}
+  author  = {Gupta, Priyanka and Arora, Mamta and Thakur, Hardeo Kumar},
+  journal = {Informatica (Slovenia)},
+  year    = {2026}
 }
 ```
 

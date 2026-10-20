@@ -1,13 +1,0 @@
-[Exp4] Davidson OOD: 24783 posts | dist={'offensive': np.int64(19190), 'normal': np.int64(4163), 'hate': np.int64(1430)}
-Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 9133.46it/s]
-  scoring zero-shot (inference only) ...
-  OOD accuracy=0.5829 macroF1=0.4834 AUC=0.8018
-  running SHAP + attention on 100 OOD posts ...
-  slur-centric transfer: in 41 slur-bearing posts, a slur was top-3 attributed in 29 (71%)
-  saved figures/ood_examples.png
-
-===== EXP4: OOD (Davidson) =====
-  zero-shot accuracy=0.5829  macro-F1=0.4834
-  per-class F1: hate=0.3285 off=0.6784 normal=0.4434
-  explanation transfer: slur is top-3 in 71% of slur-bearing posts
-Saved: results/ood_davidson.json, figures/ood_examples.png

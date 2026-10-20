@@ -37,3 +37,30 @@ install.log
 
 # claude code session/settings
 .claude/
+
+# --- internal author tooling (do not publish) ---
+*.docx
+XHateExplain_Results_Report.docx
+XHateExplain_Strengthened_Results_Discussion.docx
+XHateExplain_Improve_Results_Prompt.md
+XHateExplain_Revision_Experiments_Prompt.md
+PAPER_UPDATES.md
+REVISION_RESULTS.md
+make_discussion_doc.py
+make_paper_updates.py
+make_report.py
+make_reviewer_result.py
+make_revision_results.py
+
+# --- run logs may contain local paths ---
+results/log_*.txt
+
+# --- ad hoc orchestration ---
+rerun_explainers.sh
+run_rest.sh
+orchestrate_rest.sh
+
+# --- misc author scratch ---
+*.tmp
+lu41gmwu.tmp
+"results of experiment/"
