@@ -49,7 +49,7 @@ each table and figure in the paper has a one-to-one source file.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/XHateExplain.git
+git clone https://github.com/propriyag/XHateExplain.git
 cd XHateExplain
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
