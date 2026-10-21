@@ -7,10 +7,9 @@ in the paper are too large for GitHub (418 MB each) and are hosted separately.
 
 | Model | Size | HuggingFace Hub |
 |-------|------|-----------------|
-| `bert_best` — `bert-base-uncased` fine-tuned on HateXplain (seed 42, best val macro-F1) | 418 MB | `priyankagupta/xhateexplain-bert` |
-| `hatebert_best` — `GroNLP/hateBERT` fine-tuned on HateXplain (seed 42) | 418 MB | `priyankagupta/xhateexplain-hatebert` |
+| `bert_best` — `bert-base-uncased` fine-tuned on HateXplain (seed 42, best val macro-F1) | 418 MB | `ProPriya/xhateexplain-bert` |
+| `hatebert_best` — `GroNLP/hateBERT` fine-tuned on HateXplain (seed 42) | 418 MB | `ProPriya/xhateexplain-hatebert` |
 
-> Replace `priyankagupta` with your actual HuggingFace username after upload.
 
 ## Downloading
 
@@ -18,12 +17,12 @@ in the paper are too large for GitHub (418 MB each) and are hosted separately.
 from huggingface_hub import snapshot_download
 
 snapshot_download(
-    repo_id="priyankagupta/xhateexplain-bert",
+    repo_id="ProPriya/xhateexplain-bert",
     local_dir="models/bert_best",
     local_dir_use_symlinks=False,
 )
 snapshot_download(
-    repo_id="priyankagupta/xhateexplain-hatebert",
+    repo_id="ProPriya/xhateexplain-hatebert",
     local_dir="models/hatebert_best",
     local_dir_use_symlinks=False,
 )
@@ -33,8 +32,8 @@ Or with the CLI:
 
 ```bash
 pip install -U "huggingface_hub[cli]"
-huggingface-cli download priyankagupta/xhateexplain-bert   --local-dir models/bert_best
-huggingface-cli download priyankagupta/xhateexplain-hatebert --local-dir models/hatebert_best
+huggingface-cli download ProPriya/xhateexplain-bert   --local-dir models/bert_best
+huggingface-cli download ProPriya/xhateexplain-hatebert --local-dir models/hatebert_best
 ```
 
 ## Loading in Python
@@ -72,8 +71,8 @@ huggingface-cli login              # paste a WRITE token from huggingface.co/set
 huggingface-cli repo create xhateexplain-bert     --type model
 huggingface-cli repo create xhateexplain-hatebert --type model
 
-huggingface-cli upload priyankagupta/xhateexplain-bert     models/bert_best     .
-huggingface-cli upload priyankagupta/xhateexplain-hatebert models/hatebert_best .
+huggingface-cli upload ProPriya/xhateexplain-bert     models/bert_best     .
+huggingface-cli upload ProPriya/xhateexplain-hatebert models/hatebert_best .
 ```
 
 Each upload takes ~3–10 min depending on connection speed.
