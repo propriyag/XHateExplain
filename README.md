@@ -1,6 +1,8 @@
 # XHateExplain
 
-**A Multi-Level Interpretability Framework for Hate Speech Detection in Social Networks**
+**A Multi-Level Interpretability Framework for Hate Speech Detection and Content-Cluster Analysis**
+
+> Status: manuscript under revision at *Informatica* (Slovenia). Repository contents reflect the submitted V5 revision.
 
 XHateExplain fine-tunes BERT for 3-class hate-speech classification on
 [HateXplain](https://github.com/hate-alert/HateXplain) and explains its decisions at
@@ -130,14 +132,16 @@ Every number in the reports is read directly from the saved `results/*.json|csv`
 ## Citation
 
 ```bibtex
-@article{gupta2026xhateexplain,
+@unpublished{gupta2026xhateexplain,
   title   = {XHateExplain: A Multi-Level Interpretability Framework for
-             Hate Speech Detection in Social Networks},
+             Hate Speech Detection and Content-Cluster Analysis},
   author  = {Gupta, Priyanka and Arora, Mamta and Thakur, Hardeo Kumar},
-  journal = {Informatica (Slovenia)},
+  note    = {Manuscript under revision at Informatica (Slovenia)},
   year    = {2026}
 }
 ```
+
+> This BibTeX entry will be updated to `@article{...}` with volume, issue and page numbers once the paper is formally published.
 
 ## Acknowledgements
 
