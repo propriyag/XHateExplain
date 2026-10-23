@@ -1,6 +1,6 @@
 # XHateExplain
 
-**Multi-Level Interpretability via SHAP, LIME, and Attention Fusion for Hate Speech Detection and Content-Based Clustering**
+**A Multi-Level Interpretability Framework for Hate Speech Detection and Content-Cluster Analysis**
 
 > Status: manuscript under revision at *Informatica* (Slovenia). Repository contents reflect the submitted V6 revision.
 
@@ -133,9 +133,8 @@ Every number in the reports is read directly from the saved `results/*.json|csv`
 
 ```bibtex
 @unpublished{gupta2026xhateexplain,
-  title   = {XHateExplain: Multi-Level Interpretability via SHAP, LIME,
-             and Attention Fusion for Hate Speech Detection and
-             Content-Based Clustering},
+  title   = {XHateExplain: A Multi-Level Interpretability Framework for
+             Hate Speech Detection and Content-Cluster Analysis},
   author  = {Gupta, Priyanka and Arora, Mamta and Thakur, Hardeo Kumar},
   note    = {Manuscript under revision at Informatica (Slovenia)},
   year    = {2026}
