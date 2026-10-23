@@ -1,8 +1,8 @@
 # XHateExplain
 
-**A Multi-Level Interpretability Framework for Hate Speech Detection and Content-Cluster Analysis**
+**Multi-Level Interpretability via SHAP, LIME, and Attention Fusion for Hate Speech Detection and Content-Based Clustering**
 
-> Status: manuscript under revision at *Informatica* (Slovenia). Repository contents reflect the submitted V5 revision.
+> Status: manuscript under revision at *Informatica* (Slovenia). Repository contents reflect the submitted V6 revision.
 
 XHateExplain fine-tunes BERT for 3-class hate-speech classification on
 [HateXplain](https://github.com/hate-alert/HateXplain) and explains its decisions at
@@ -133,8 +133,9 @@ Every number in the reports is read directly from the saved `results/*.json|csv`
 
 ```bibtex
 @unpublished{gupta2026xhateexplain,
-  title   = {XHateExplain: A Multi-Level Interpretability Framework for
-             Hate Speech Detection and Content-Cluster Analysis},
+  title   = {XHateExplain: Multi-Level Interpretability via SHAP, LIME,
+             and Attention Fusion for Hate Speech Detection and
+             Content-Based Clustering},
   author  = {Gupta, Priyanka and Arora, Mamta and Thakur, Hardeo Kumar},
   note    = {Manuscript under revision at Informatica (Slovenia)},
   year    = {2026}
